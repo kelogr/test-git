@@ -1,0 +1,28 @@
+{
+  "name": "proyecto",
+  "version": "1.0.0",
+  "description": "Directorio de prueba para aprender Git y Node",
+  "main": "index.html",
+  "scripts": {
+    "start": "npm run lite",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lite": "lite-server"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kelogr/test-git.git"
+  },
+  "author": "Kevin López Granado",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kelogr/test-git/issues"
+  },
+  "homepage": "https://github.com/kelogr/test-git#readme",
+  "devDependencies": {
+    "lite-server": "^2.3.0"
+  },
+  "dependencies": {
+    "light-server": "^2.5.1",
+    "uws": "^10.148.0"
+  }
+}
