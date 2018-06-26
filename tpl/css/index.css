@@ -63,8 +63,21 @@ body{
     list-style: none;
 }*/
 
+*{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+}
+
+body{
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
 .container{
     max-width: 100% !Important;
+    margin: 0px !Important;
+    padding: 0px !Important;
 }
 
 li{
@@ -76,4 +89,31 @@ li{
 ul{
     margin: 0 !Important; 
 }
+
+header{
+    height: 25%;
+    background-color: beige;
+}
+/*
+.height_3_4{
+    height: 75%;
+}*/
+
+.first-impression{
+    width: 100vw;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.full{
+    height: 70%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.col-12{
+    padding: 0% !Important;
+}
+
 
